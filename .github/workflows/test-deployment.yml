@@ -1,0 +1,36 @@
+name: Test deployment
+
+on:
+  pull_request_target:
+    types:
+      - opened
+    branches:
+      - main
+    # Review gh actions docs if you want to further define triggers, paths, etc
+    # https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#on
+
+jobs:
+  test-deploy:
+    name: Test deployment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4 #v4
+
+      - uses: actions/setup-node@v4 # v4
+        with:
+          node-version: 18.x
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      
+      - name: Test documentation build
+        env:
+          URL: ${{ secrets.URL }}
+          BASE_PATH: docs/
+          SEGMENT_WRITE_KEY: ${{ secrets.SEGMENT_WRITE_KEY }}
+          ALGOLIASEARCH_API_KEY: ${{ secrets.ALGOLIASEARCH_API_KEY }}
+          ALGOLIASEARCH_APPLICATION_ID: ${{ secrets.ALGOLIASEARCH_APPLICATION_ID }}
+          ALGOLIASEARCH_INDEX_NAME: ${{ secrets.ALGOLIASEARCH_INDEX_NAME }}
+        run: yarn build
