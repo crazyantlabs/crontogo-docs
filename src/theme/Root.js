@@ -7,13 +7,13 @@ export default function Root({children}) {
     <Head>
       <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700,800&display=swap" />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-      <meta name="theme-color" content="#3e37ff" />
+      <meta name="theme-color" content="#ff4057" />
       <script type="text/javascript">
       {`
           window.intercomSettings = { 
             // Brand specific
-            action_color: '#3e37ff',
-            background_color: '#3e37ff'
+            action_color: '#ff4057',
+            background_color: '#ff4057'
           }
       `}
       </script>
