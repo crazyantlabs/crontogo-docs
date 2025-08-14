@@ -1,7 +1,7 @@
 ---
 sidebar_label: 'Organization Settings'
 title: 'Organization Settings'
-sidebar_position: 40
+sidebar_position: 1
 ---
 To manage your organization, security, billing, and team settings, click **Settings** from the menu.
 

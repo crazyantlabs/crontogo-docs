@@ -1,7 +1,7 @@
 ---
 sidebar_label: 'Account Settings'
 title: 'Account Settings'
-sidebar_position: 50
+sidebar_position: 2
 ---
 
 To manage your personal account profile and security settings, click your avatar (at the top-right corner of the screen) and then click **Account settings**.
@@ -11,6 +11,12 @@ To manage your personal account profile and security settings, click your avatar
 You can change your name here. To change your avatar, create one using Gravatar.
 
 ## Security
+
+:::note
+**Direct Sign-ups Only**: The password and multi-factor authentication settings below are only relevant for accounts created through direct sign-up. If your account was created through a partner's SSO (Heroku, Digital Ocean, Build.io, etc.), please manage your security settings through your partner's platform.
+:::
+
+### Password Management
 
 Click **Change password** to change your password. You will be requested to enter your current password as well. Your new password needs to be at least 10 characters including a number, a lowercase and an uppercase letter.
 
