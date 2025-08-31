@@ -20,8 +20,8 @@ Cron To Go supports the following scheduling options:
 Cron To Go supports the following target types:
 
 - **Heroku Dyno**: Trigger a one-off Heroku Dyno on schedule
-- **Build.io Dyno**: Trigger a one-off Build.io Dyno on schedule
-- **HTTP Endpoint**: Send a POST request to a HTTP endpoint on schedule (coming soon)
-- **AWS Lambda Function**: Invoke a AWS Lambda function on schedule (coming soon)
-- **DigitalOcean Function**: Invoke a Digital Ocean serverless function on schedule (coming soon)
+- **Build.io Dyno**: Trigger a one-off Build.io Dyno on schedule (coming soon)
+- **Webhook Request**: Send a POST request to a HTTP endpoint on schedule (coming soon)
+- **AWS Lambda Function**: Invoke an AWS Lambda function on schedule (coming soon)
+- **DigitalOcean Function**: Invoke a DigitalOcean serverless function on schedule (coming soon)
 

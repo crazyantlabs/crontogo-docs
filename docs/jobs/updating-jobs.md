@@ -29,9 +29,6 @@ This guide covers how to update, edit, and modify existing jobs in Cron To Go.
 
 #### Target Configuration
 - Modify target-specific settings based on target type
-- Update Heroku/Build.io dyno commands
-- Change app configuration settings
-- Update command parameters
 
 #### Jitter Configuration
 - Add jitter to prevent thundering herd problems

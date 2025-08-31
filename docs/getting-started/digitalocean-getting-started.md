@@ -1,7 +1,7 @@
 ---
 sidebar_label: 'Getting Started with DigitalOcean'
 title: 'Getting Started with DigitalOcean'
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Getting Started with DigitalOcean
@@ -56,7 +56,7 @@ For detailed information about job management, cron expressions, and advanced fe
 
 ## Support
 
-- **DigitalOcean Support**: For App Platform issues
+- **DigitalOcean Support**: For DigitalOcean platform issues
 - **Cron To Go Support**: For Cron To Go specific issues
-- **Documentation**: [Cron To Go Docs](https://docs.crontogo.com)
-- **Status**: [DigitalOcean Status](https://status.digitalocean.com) | [Cron To Go Status](https://status.crazyantlabs.com) 
+- **Documentation**: [Cron To Go Documentation](https://crontogo.com/docs)
+- **Status**: [Cron To Go Status](https://status.crazyantlabs.com) or [DigitalOcean Status](https://status.digitalocean.com)

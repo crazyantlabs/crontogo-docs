@@ -12,7 +12,7 @@ sidebar_position: 1
 Cron To Go is a fully-managed cloud scheduler that allows you to run scheduled jobs on various platforms. It combines the simplicity of cron expressions with the scalability of cloud infrastructure, letting you schedule tasks without maintaining your own scheduling infrastructure.
 
 ### How does Cron To Go work?
-Cron To Go executes your jobs in isolated containers (one-off dynos on Heroku, containers on other platforms) only when they need to run. This approach is more cost-effective than running always-on processes and provides better scalability.
+Cron To Go executes your jobs in isolated containers (one-off Dynos on Heroku and Build.io, containers on other platforms) only when they need to run. This approach is more cost-effective than running always-on processes and provides better scalability.
 
 ### What add-on marketplaces does Cron To Go support?
 Cron To Go is available on:
@@ -138,6 +138,7 @@ fi
 ### What dyno sizes are available?
 **A:** Available dyno sizes depend on your platform and account status:
 - **Heroku**: Hobby, Standard-1X, Standard-2X, Performance-M, Performance-L
+- **Build.io**: Basic, Standard-1X, Standard-2X, Performance-M, Performance-L
 - **DigitalOcean**: Various container sizes
 - **Addons.io**: Depends on underlying platform
 

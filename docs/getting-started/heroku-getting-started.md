@@ -10,14 +10,14 @@ Cron To Go is available as a native Heroku add-on, providing seamless integratio
 
 ## Overview
 
-Cron To Go on Heroku runs your scheduled jobs using one-off dynos, which means you only pay for the time your jobs actually execute. This is more cost-effective than running always-on processes.
+Cron To Go on Heroku runs your scheduled jobs using one-off Dynos, which means you only pay for the time your jobs actually execute. This is more cost-effective than running always-on processes.
 
 ### Key Benefits on Heroku
 
 - **Native Add-on**: Available through Heroku's add-on marketplace
 - **CLI Integration**: Full support for Cron To Go CLI commands using the Heroku CLI Plugin
 - **Environment Variables**: Automatic access to your app's config vars
-- **Dyno Types**: Support for all Heroku dyno types (Hobby, Standard, Performance)
+- **Dyno Types**: Support for all Heroku Dyno types (Hobby, Standard, Performance)
 - **Logging**: Integration with Heroku's logging system
 
 ## Provisioning
@@ -73,5 +73,5 @@ For detailed information about job management, cron expressions, and advanced fe
 
 - **Heroku Support**: For Heroku platform issues
 - **Cron To Go Support**: For Cron To Go specific issues
-- **Documentation**: [Cron To Go Documentation](https://docs.crontogo.com)
+- **Documentation**: [Cron To Go Documentation](https://crontogo.com/docs)
 - **Status**: [Cron To Go Status](https://status.crazyantlabs.com) or [Heroku Status](https://status.heroku.com)

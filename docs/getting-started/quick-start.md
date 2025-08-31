@@ -28,6 +28,22 @@ heroku addons:create crontogo -a <your-app-name>
 heroku addons:open crontogo -a <your-app-name>
 ```
 
+### Build.io
+1. Navigate to [Build.io Dashboard](https://build.io)
+2. Select your app and go to "Resources"
+3. Search for "Cron To Go" and install
+4. Access the dashboard through SSO (Single Sign-On)
+
+Or, using the Heroku CLI:
+
+```bash
+# Install Cron To Go add-on on your app
+build addons:create crontogo -a <your-app-name>
+
+# Open the dashboard
+build addons:open crontogo -a <your-app-name>
+```
+
 ### DigitalOcean
 1. Navigate to the Cron To Go [DigitalOcean Marketplace page](https://marketplace.digitalocean.com/add-ons/crontogo)
 2. Click "Add Cron To Go" and follow the setup process

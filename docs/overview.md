@@ -44,7 +44,7 @@ Based on feedback from thousands of users, here are the most common use cases:
 psql $DATABASE_URL -c "REFRESH MATERIALIZED VIEW vw_account_counters"
 ```
 
-### HTTP Endpoints
+### Webhook Requests
 - Trigger webhooks
 - Call third-party APIs
 - Start application processes
@@ -78,7 +78,7 @@ Cron To Go integrates with multiple cloud platforms:
 
 - **Heroku**: Trigger one-off Dyno on schedule
 - **Build.io**: Trigger one-off Dyno on schedule (coming soon)
-- **HTTP Endpoint**: Send a POST request to a HTTP endpoint on schedule (coming soon)
+- **Webhook Request**: Send a POST request to a HTTP endpoint on schedule (coming soon)
 - **AWS Lambda**: Trigger Lambda functions invocation on schedule (coming soon)
 - **DigitalOcean**: Trigger a serverless function on schedule (coming soon)
 
@@ -87,14 +87,15 @@ Cron To Go integrates with multiple cloud platforms:
 Cron To Go integrates with multiple add-on marketplaces:
 
 - **Heroku**: Heroku add-on marketplace
+- **Build.io**: Build.io add-on marketplace
 - **DigitalOcean**: DigitalOcean add-on marketplace
 - **Addons.io**: Addons.io add-on marketplace
-- **Build.io**: Build.io add-on marketplace
 
 ## Getting Started
 
 Choose your add-on marketplace and follow the quick start guide:
 
 - [Getting Started on Heroku](getting-started/heroku-getting-started)
+- [Getting Started on Build.io](getting-started/build-io-getting-started)
 - [Getting Started on DigitalOcean](getting-started/digitalocean-getting-started)
 - [Getting Started on Addons.io](getting-started/addons-io-getting-started)

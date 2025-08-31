@@ -13,7 +13,7 @@ You can change your name here. To change your avatar, create one using Gravatar.
 ## Security
 
 :::note
-**Direct Sign-ups Only**: The password and multi-factor authentication settings below are only relevant for accounts created through direct sign-up. If your account was created through a partner's SSO (Heroku, Digital Ocean, Build.io, etc.), please manage your security settings through your partner's platform.
+**Direct Sign-ups Only**: The password and multi-factor authentication settings below are only relevant for accounts created through direct sign-up. If your account was created through a partner's SSO (Heroku, DigitalOcean, Build.io, etc.), please manage your security settings through your partner's platform.
 :::
 
 ### Password Management

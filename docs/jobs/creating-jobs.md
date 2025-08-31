@@ -63,21 +63,20 @@ Choose from the following target types:
     - Set the Application to run the command on
     - Set Dyno Size to the size you want to use
     - Set Timeout to the timeout you want to use
-- **HTTP Endpoint**: Send a POST request to a HTTP endpoint on schedule `(coming soon)`
+- **Webhook Request**: Send a POST request to a HTTP endpoint on schedule `(coming soon)`
     - Set the URL to send the request to
     - Choose the content type of the request
     - Set the Payload to the body you want to send
-    - Set the signing secret to the value you want to use
     - Set the Authorization header to the value you want to use
-- **AWS Lambda Function**: Invoke a AWS Lambda function on schedule `(coming soon)`
+    - Set the signing secret to the value you want to use
+- **AWS Lambda Function**: Invoke an AWS Lambda function on schedule `(coming soon)`
     - Set the Function ARN to the ARN of the AWS Lambda function you want to use
     - Set the Payload to a JSON value you want to send
-    - Set the Timeout to the timeout you want to use
-- **DigitalOcean Function**: Invoke a Digital Ocean serverless function on schedule `(coming soon)`
-    - Set the Function to the Digital Ocean function you want to use
+    - Update your function's resource-based policy in your AWS account to allow Cron To Go to invoke the function
+- **DigitalOcean Function**: Invoke a DigitalOcean serverless function on schedule `(coming soon)`
+    - Set the REST API URL of the DigitalOcean function you want to use
+    - Set the Authorization header of the function to the value you want to use
     - Set the Payload to a JSON value you want to send
-    - Set the Timeout to the timeout you want to use
-
 
 #### Jitter
 
@@ -116,19 +115,24 @@ Indicate if the jobs is active or paused
 
 ### Target-Specific Best Practices
 
-#### HTTP Endpoint Jobs
+#### Heroku/Build.io Dyno Targets
+- Choose appropriate Dyno size that meets your job needs
+- Plan for the Dyno concurrency limits
+
+#### Webhook Request Target
 - Use HTTPS endpoints
 - Include authentication headers for better security
 - Set appropriate timeout values
 
-#### AWS Lambda Jobs
+#### AWS Lambda Function Target
 - Use function ARN of the AWS Lambda function
 - Configure appropriate timeout
 - Consider cold start strategies
 
-#### Heroku/Build.io Dyno Jobs
-- Choose appropriate Dyno size that meets your job needs
-- Plan for the Dyno concurrency limits
+#### DigitalOcean Function Target
+- Use the REST API URL of the DigitalOcean function
+- Configure appropriate timeout
+- Consider cold start strategies
 
 ## Troubleshooting
 

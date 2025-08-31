@@ -58,5 +58,5 @@ For detailed information about job management, cron expressions, and advanced fe
 
 - **Addons.io Support**: For platform integration issues
 - **Cron To Go Support**: For Cron To Go specific issues
-- **Documentation**: [Cron To Go Docs](https://docs.crontogo.com)
+- **Documentation**: [Cron To Go Docs](https://crontogo.com/docs)
 - **Status**: [Cron To Go Status](https://status.crazyantlabs.com) 
