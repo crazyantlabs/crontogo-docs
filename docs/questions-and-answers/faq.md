@@ -71,6 +71,17 @@ Check if increasing the timeout is required or if your job needs more resources.
 #### I'm using Cron To Go with PHP and don't see anything in job logs
 **A:** Artisan may append `> '/dev/null' 2>&1` to commands. See our [logging guide](https://crontogo.com/blog/logging-laravel-background-tasks-in-heroku-the-right-way/) for solutions.
 
+### Build.io
+
+#### How do I access Cron To Go on Build.io?
+**A:** After installing Cron To Go from the Build.io Marketplace, you can access it through:
+1. Your Build.io dashboard
+2. Direct SSO access to the Cron To Go dashboard
+3. The Cron To Go dashboard URL provided in your Build.io app
+
+#### How is billing handled on DigitalOcean?
+**A:** All Cron To Go charges appear on your Build.io bill. You manage billing through your Build.io account dashboard.
+
 ### DigitalOcean
 
 #### How do I access Cron To Go on DigitalOcean?
