@@ -114,12 +114,6 @@ const config = {
             label: 'Sign in',
             className: 'nav-link',
           },
-          {
-            to: `${url}/register`,
-            position: 'right',
-            label: 'Free trial',
-            className: 'nav-link cta-link',
-          },
         ],
       },
       footer: {
