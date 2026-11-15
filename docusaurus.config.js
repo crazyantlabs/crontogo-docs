@@ -41,6 +41,9 @@ const config = {
           editUrl: 'https://github.com/crazyantlabs/crontogo-docs/tree/main/',
           showLastUpdateTime: false
         },
+        // No blog in the docs site: since Docusaurus 3.10 the blog plugin
+        // publishes an empty /blog page when there are no posts.
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
