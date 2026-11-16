@@ -46,6 +46,21 @@ html[data-theme='dark'] {
   --ifm-link-hover-color: var(--ifm-color-primary-darker);
 }
 
+/*
+ * DocSearch 4 colours its accents (icons, "Clear the query", result highlights,
+ * selected result, focus ring) with its own Algolia blue. Use the brand pink.
+ * DocSearch sets these on :root and html[data-theme=dark] after this file in
+ * the bundle, so set them on its own elements, which wins in both themes.
+ */
+.DocSearch-Button,
+.DocSearch-Container {
+  --docsearch-primary-color: var(--ifm-color-primary);
+  --docsearch-highlight-color: var(--ifm-color-primary);
+  --docsearch-focus-color: var(--ifm-color-primary);
+  --docsearch-soft-primary-color: rgb(255 64 87 / 10%);
+  --docsearch-hit-highlight-color: rgb(255 64 87 / 10%);
+}
+
 ul>li::marker {
   color: var(--ifm-color-emphasis-400);
 }
