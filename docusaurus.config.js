@@ -18,7 +18,13 @@ const config = {
   url,
   baseUrl,
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
+  markdown: {
+    hooks: {
+      // Moved from the top-level `onBrokenMarkdownLinks` option, deprecated in
+      // Docusaurus 3.9 and removed in v4.
+      onBrokenMarkdownLinks: 'throw',
+    },
+  },
   favicon: '/img/favicon-96x96.png',
   organizationName: 'crazyantlabs',
   projectName: 'crontogo-docs',
@@ -35,6 +41,9 @@ const config = {
           editUrl: 'https://github.com/crazyantlabs/crontogo-docs/tree/main/',
           showLastUpdateTime: false
         },
+        // No blog in the docs site: since Docusaurus 3.10 the blog plugin
+        // publishes an empty /blog page when there are no posts.
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
