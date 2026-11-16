@@ -60,6 +60,13 @@ html[data-theme='dark'] {
   --docsearch-hit-highlight-color: var(--docsearch-soft-primary-color);
 }
 
+/* DocSearch 4 has no hover or focus colour on these borders; make them pink. */
+.DocSearch-Button:hover,
+.DocSearch-Button:focus-visible,
+.DocSearch-Form:focus-within {
+  border-color: var(--ifm-color-primary);
+}
+
 ul>li::marker {
   color: var(--ifm-color-emphasis-400);
 }
