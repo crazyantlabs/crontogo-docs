@@ -1501,7 +1501,7 @@
   resolved "https://registry.yarnpkg.com/@docsearch/css/-/css-4.7.1.tgz#0b45c4bed63d0f0993d6f368fc3229da48f70106"
   integrity sha512-AsMPnbNmVLDNjhtgfq4ZRskNvWR8vuK6riEegHp3kjBFtxbmTWPzZ5s1FJ04SGr2D0ZXglueUNISsV2sDgV6Jw==
 
-"@docsearch/react@4.7.1", "@docsearch/react@^3.9.0 || ^4.3.2":
+"@docsearch/react@^3.9.0 || ^4.3.2":
   version "4.7.1"
   resolved "https://registry.yarnpkg.com/@docsearch/react/-/react-4.7.1.tgz#91de979757210031475a00bcb9ea767feda0f9b7"
   integrity sha512-MhRNQp+Ew+i/xc/+ydDgSQmu6/lEH+Og8F0d1qpXWV/kKNw8OhFfDnLNJlNLiqZQhU1GaEv37G4wxipKw+HdNA==
@@ -7643,11 +7643,6 @@ react-dom@^19.3.1:
   integrity sha512-Y0bARz53lhEC1NMCASs0/j+faB/zqt3R8hpvg1e8+61ZVJ4UL0UdC4cBbXfZMcIuhrfgeILTLe+ZeBCavQPtKQ==
   dependencies:
     scheduler "^0.28.0"
-
-react-error-overlay@^6.1.0:
-  version "6.1.0"
-  resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.1.0.tgz#22b86256beb1c5856f08a9a228adb8121dd985f2"
-  integrity sha512-SN/U6Ytxf1QGkw/9ve5Y+NxBbZM6Ht95tuXNMKs8EJyFa/Vy/+Co3stop3KBHARfn/giv+Lj1uUnTfOJ3moFEQ==
 
 react-fast-compare@^3.2.0:
   version "3.2.3"
